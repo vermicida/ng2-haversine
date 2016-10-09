@@ -1,0 +1,15 @@
+# dirs
+node_modules
+typings
+
+# files
+npm-debug.log
+geo-coord.js
+geo-coord.d.ts
+geo-coord.js.map
+haversine.service.js
+haversine.service.d.ts
+haversine.service.js.map
+index.js
+index.d.ts
+index.js.map

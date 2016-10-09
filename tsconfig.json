@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": ".",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "declaration": true
+  },
+  "files": [
+    "./typings/index.d.ts",
+    "./src/index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "./src/clean.js"
+  ]
+}

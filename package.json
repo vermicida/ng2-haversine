@@ -1,0 +1,36 @@
+{
+  "name": "ng2-haversine",
+  "version": "0.0.1",
+  "description": "An Angular 2 library to calculate the distance between a pair of coordinates using the Haversine formula.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vermicida/ng2-haversine.git"
+  },
+  "keywords": [
+    "angular2",
+    "ng2",
+    "haversine"
+  ],
+  "author": {
+    "name": "Diego Herrera",
+    "email": "vermicida@gmail.com"
+  },
+  "scripts": {
+    "clean": "node ./src/clean.js",
+    "tsc": "tsc",
+    "typings": "typings"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vermicida/ng2-haversine/issues"
+  },
+  "homepage": "https://github.com/vermicida/ng2-haversine#readme",
+  "devDependencies": {
+    "@angular/core": "^2.0.2",
+    "rimraf": "^2.5.4",
+    "rxjs": "^5.0.0-beta.12",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    "zone.js": "^0.6.25"
+  }
+}
